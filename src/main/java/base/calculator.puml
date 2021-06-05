@@ -1,0 +1,16 @@
+@startuml
+
+
+class App{
+    +prompt_length()
+    +prompt_width()
+}
+class paintJob{
+    <<constructor>> paintJob(length: int, width: int)
+    + <b>conversion rate
+    +squareFootage()
+    +cansPer()
+
+}
+App <|-- paintJob
+@enduml
